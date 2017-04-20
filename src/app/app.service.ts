@@ -5,7 +5,6 @@ import 'rxjs/add/operator/toPromise';
 @Injectable()
 export class AppService {
 
-  //private productUrl = 'http://54.83.73.119:4002/bjspdpapi/getpdp?productid=10001';
   //private productUrl = 'http://sajanjohn.com/cookie/ajax.php';
   private productUrl = 'todo.json'
   private headers = new Headers({'x-ibm-client-id': 'default'});
